@@ -9,10 +9,12 @@ body {
     flex-direction: column;
 }
 
-/* === Bouton au-dessus de la carte === */
+
+/* Bouton */
+
 .bouton-container {
-    text-align: center;      /* centre horizontalement */
-    margin-bottom: 50px;     /* espace entre le bouton et la carte */
+    text-align: center;     
+    margin-bottom: 50px;     
     display: flex;
     justify-content: center;
 }
@@ -41,6 +43,7 @@ body {
     border: 10px solid rgba(204, 204, 204, 0.5); 
 }
 
+
 /* Styles pour l'en-tête de la page */
 
 header {
@@ -68,6 +71,7 @@ h2 {
     margin: 10px;
     font-weight: normal;
 }
+
 
 /* Contenu */
 
@@ -121,7 +125,7 @@ strong.grand {
 }
 
 
-/*Verso*/
+/*VERSO*/
 
 
 /* En-tête verso */
@@ -159,7 +163,7 @@ tr td:nth-child(2) {
 }
 
 tr td:last-child {
-  width: 80px; /* par exemple */
+  width: 80px; /* Taille de la dernière cellule */
 }
 
 
@@ -225,4 +229,5 @@ h4 {
     margin: 0;
     font-size: 16px;
     letter-spacing: 4px;
+
 }
