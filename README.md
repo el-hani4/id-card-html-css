@@ -2,6 +2,13 @@
 
 Ce projet représente ma **carte d'identité fictive** réalisée en **HTML et CSS**.
 L'objectif était de pratiquer la mise en page, le positionnement des éléments de différentes manières et donc de savoir reproduire des **modèles visuels** en HTML et CSS afin d'améliorer mes acquis.
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="CSS Valide !" />
+    </a>
+</p>
 
 ---
 
