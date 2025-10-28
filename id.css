@@ -1,0 +1,228 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #d8e6f3;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+/* === Bouton au-dessus de la carte === */
+.bouton-container {
+    text-align: center;      /* centre horizontalement */
+    margin-bottom: 50px;     /* espace entre le bouton et la carte */
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #155ab6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #155bb6dd;
+    transform: scale(1);
+}
+
+.carte{
+    width: 560px;
+    background-color: rgb(179, 214, 241);
+    border-radius: 15px;
+    border: 10px solid rgba(204, 204, 204, 0.5); 
+}
+
+/* Styles pour l'en-tête de la page */
+
+header {
+    display: flex;
+    padding: 8px 15px;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 0.8;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+h1 {
+    color: rgb(36, 36, 171);
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 12px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+/* Contenu */
+
+.content {
+    display: flex;
+    padding: 0 15px 8px;
+    gap: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content img {
+    width: 150px;
+    height: 215px;
+    border: 1px solid #ccc;
+    filter: grayscale(100%);
+}
+
+section {
+    width: 100%;
+}
+
+p {
+    font-size: 11px;
+    margin: 5px 0 0;
+    line-height: 1.4;
+}
+
+strong {
+    font-size: 12px;
+}
+
+strong.grand {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.ligne {
+    display: flex;
+    gap: 15px;
+}
+
+.ligne p {
+    flex: 0 1 auto;
+}
+
+.ligne img {
+    width: 175px;
+    height: 20px;
+    border: none;
+}
+
+
+/*Verso*/
+
+
+/* En-tête verso */
+
+.header {
+    font-size: 11px;
+    padding: 8px 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.header .qr {
+    width: 104px;
+    height: 104px;
+}
+
+.header .photoid{
+    width: 80px;
+    height: 103px;
+    display: block;
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 0px;
+}
+
+tr td:nth-child(2) {
+  width: 245px; /* Ajuste la largeur en fonction des autres colonnes */
+}
+
+tr td:last-child {
+  width: 80px; /* par exemple */
+}
+
+
+/* Milieu verso */
+
+.image {
+    padding: 0 15px;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;  
+    box-sizing: border-box;
+    align-items: flex-end;
+}
+
+.image .grand {
+    width: 80px;
+    height: 69px;
+    border-radius: 12px;
+}
+.image .petit {
+    width: 70px;
+    height: 30px;
+}
+
+/* Titre avec traits */
+
+h4 {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgb(36, 36, 171);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 8px 15px 13px 15px;
+}
+
+.trait::before {
+  content: "";
+  flex: 1;
+  height: 5px;
+  background-color: rgb(36, 36, 171);
+  margin-right: 5px;
+}
+
+.trait::after {
+  content: "";
+  flex: 1;
+  height: 5px;
+  background-color: #f31212;
+  margin-left: 5px;
+}
+
+/* Pied de page verso */
+
+.code {
+    margin: 0;
+    padding: 0 15px 8px;
+    
+}
+
+.code p {
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
