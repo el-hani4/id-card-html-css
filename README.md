@@ -12,6 +12,12 @@ L'objectif était de pratiquer la mise en page, le positionnement des éléments
 
 ---
 
+### Cybersécurité
+
+**Important :** Pour des raisons de sécurité, seuls mon prénom et mon nom sont réels. Toutes les autres informations figurant sur cette carte d'identité sont entièrement fictives et ne doivent pas être utilisées à des fins officielles.
+
+---
+
 ### Technologies utilisées
 
 - HTML5
