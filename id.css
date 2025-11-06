@@ -12,28 +12,37 @@ body {
 
 /* Bouton */
 
-.bouton-container {
+button {
     text-align: center;     
     margin-bottom: 50px;     
     display: flex;
     justify-content: center;
 }
 
-.btn {
-    background-color: #155ab6;
+#btn {
+    background-color: #155bb6;
     color: white;
     padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-size: 14px;
-    font-weight: 500;
     display: inline-block;
     transition: 0.3s;
 }
 
-.btn:hover {
+#btn:hover {
     background-color: #155bb6dd;
     transform: scale(1);
+}
+
+
+/* Masquer verso et afficher recto*/
+#verso {
+    display: none;
+}
+
+#recto {
+    display: block;
 }
 
 .carte{
@@ -229,5 +238,4 @@ h4 {
     margin: 0;
     font-size: 16px;
     letter-spacing: 4px;
-
 }
